@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 16px;
+}
+
+.navbar-nav li a{
+    color: white;
+}
+
+  
+.cards .card {
+    margin: 15px auto;
+    padding: 15px;
+    height: 300px;
+    width: 320px;
+    text-decoration: none;
+    color: black;
+}
+
+.card img {
+    display: block;
+    margin: auto;
+}
+
+.card:hover{
+    background-color: darkorange;
+}
+
+.greeting{
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+.service-msg{
+    font-size: 1.4rem;
+}
+
+.request hr{
+    width: 20%; 
+    margin: auto;
+    border-color: brown;
+}
+
+
+/* media queries */
+@media screen and (min-width: 768px){
+    .carousel-inner{
+        height: 92vh;
+    }
+
+    .cards{
+        display: flex;
+    }
+
+    .card{
+        transition: all 0.3s ease-in;
+    }
+
+    .card:hover{
+        border-radius: 20px;
+    }
+
+    .greeting{
+        font-size: 1.5rem;
+    }
+
+    .service-msg{
+        font-size: 1.5rem;
+    }
+}
