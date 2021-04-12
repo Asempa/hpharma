@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 10, 2021 at 11:55 AM
+-- Generation Time: Apr 12, 2021 at 07:34 PM
 -- Server version: 10.4.17-MariaDB
 -- PHP Version: 8.0.0
 
@@ -48,9 +48,9 @@ CREATE TABLE `booking` (
   `gender` varchar(70) NOT NULL,
   `phonenumber` varchar(70) NOT NULL,
   `address` varchar(70) NOT NULL,
-  `doctorappointed` varchar(70) NOT NULL,
-  `timetaken` timestamp NOT NULL DEFAULT current_timestamp(),
-  `comments` varchar(255) NOT NULL
+  `appointmentfor` varchar(70) NOT NULL,
+  `date` date NOT NULL,
+  `time` time NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
