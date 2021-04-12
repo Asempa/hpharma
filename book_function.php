@@ -26,7 +26,7 @@ if(isset($_POST['save'])){
 
     if(empty($input_FirstName)){
         $errors['Error_FirstName'] = "Invalid Input";
-    } 
+    }
 
     if(empty($input_datepick)){
         $errors['Error_datepick'] = "Pick a date";
@@ -40,19 +40,19 @@ if(isset($_POST['save'])){
         $errors['Error_time'] = "Time has already been booked";
     }
 
-        
+
     if(count($errors)==0){
         $sql = "INSERT INTO booking (firstname, lastname, email, appointmentfor, bookeddate, bookedtime) VALUES ('$input_FirstName', '$input_LastName', '$input_Email', '$input_purpose', '$input_datepick', '$input_time')";
         $data_inserted = mysqli_query($connection, $sql);
         if($data_inserted){
-            echo "<script>alert('Thank You For Booking with Us🙂');</script> ";
+            echo "<script>alert('Thank You For Booking with Us🙂'); location.href='index.php';</script> ";
         } else{
             echo "<script>alert('Failed to Book a Session'); location.href='book.php';</script>";
 
         }
     }
 
-    
+
 }
 
 
