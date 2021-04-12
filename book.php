@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-
-=======
 <?php
 
     //Initialization
@@ -11,12 +8,6 @@
 
     if (isset($_POST['First_name'])) $UserName['First_name'] = htmlspecialchars($_POST['First_name']);
     if (isset($_POST['Last_name'])) $UserPhone['Last_name'] = htmlspecialchars($_POST['Last_name']);
-
-
-    
-    if (isset($_POST['First_name'])) $FirstName['First_name'] = htmlspecialchars($_POST['First_name']);
-    if (isset($_POST['Last_name'])) $LastName['Last_name'] = htmlspecialchars($_POST['Last_name']);
-    
 ?>
 
 
