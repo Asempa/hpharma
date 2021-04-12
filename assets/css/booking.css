@@ -61,7 +61,7 @@ input[type="button"]:hover{
         left: 0;
         right: 0;
         bottom: 0;
-        background-image: url("/assets/img/backgrounds/johny-georgiadis-3ewkNkfJj2k-unsplash.jpg");
+        background-image: url("assets/img/backgrounds/johny-georgiadis-3ewkNkfJj2k-unsplash.jpg");
         background-position: 0% 20%;
         background-size: cover;
         background-repeat: no-repeat;
