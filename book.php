@@ -1,3 +1,16 @@
+<?php 
+
+    //Initialization
+    $FirstName['First_name'] = "";
+    $LastName['Last_name'] = "";
+
+    
+    if (isset($_POST['First_name'])) $UserName['First_name'] = htmlspecialchars($_POST['First_name']);
+    if (isset($_POST['Last_name'])) $UserPhone['Last_name'] = htmlspecialchars($_POST['Last_name']);
+    
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -64,26 +77,23 @@
                 <div class="fields">
                     <div class="field">
                         <label for="">First Name</label>
-                        <input type="text" placeholder="First Name" name="First_name" id="First_name" onblur="VerifyFname();"><br>
-                        <span id="First_Error">&nbsp;</span>
+                        <input type="text" placeholder="First Name" name="First_name" id="First_name" onblur="VerifyFname();" value="<?php echo $FirstName['First_name']; ?>"><br>
+                        <span><p style="color: red;"><?php if(isset($errors['Error_FirstName'])) echo $errors['Error_FirstName'];?></p></span>
                     </div>
 
                     <div class="field">
                         <label for="">Last Name</label>
-                        <input type="text" placeholder="Last Name" name="Last_name" id="Last_name" onblur="VerifyLname();"><br>
-                        <span id="Last_Error">&nbsp;</span>
+                        <input type="text" placeholder="Last Name" name="Last_name" id="Last_name" onblur="VerifyLname();" value="<?php echo $LastName['Last_name']; ?>"><br>
                     </div>
 
                     <div class="field">
                         <label for="">Email</label>
                         <input type="text" placeholder="Email" name="Email" id="Email" onblur="VerifyEmail();" ><br>
-                        <span id="Email_Error">&nbsp;</span>
                     </div>
 
                     <div class="field">
                         <label for="">Preferred Date</label>
                         <input type="date" name="date_picked" id="date_picked"><br>
-                        <span id="Date_Error">&nbsp;</span>
                     </div>
 
                     <div class="field">
@@ -106,7 +116,7 @@
                     </div>
 
                     <div class="field">
-                        <input type="button" value="Book Appointment" name="book">
+                        <input type="submit" value="Book Appointment" name="save">
                     </div>
                 </div>
             </form>

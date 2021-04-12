@@ -48,8 +48,8 @@ CREATE TABLE `booking` (
   `lastname` varchar(70) NOT NULL,
   `email` varchar(70) NOT NULL,
   `appointmentfor` varchar(70) NOT NULL,
-  `date` date NOT NULL,
-  `time` time NOT NULL DEFAULT current_timestamp()
+  `bookeddate` date NOT NULL,
+  `bookedtime` time NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
