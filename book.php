@@ -1,14 +1,4 @@
-<?php 
 
-    //Initialization
-    $FirstName['First_name'] = "";
-    $LastName['Last_name'] = "";
-
-    
-    if (isset($_POST['First_name'])) $FirstName['First_name'] = htmlspecialchars($_POST['First_name']);
-    if (isset($_POST['Last_name'])) $LastName['Last_name'] = htmlspecialchars($_POST['Last_name']);
-    
-?>
 
 
 <!DOCTYPE html>
@@ -69,13 +59,13 @@
                 <div class="fields">
                     <div class="field">
                         <label for="">First Name</label>
-                        <input type="text" placeholder="First Name" name="First_name" id="First_name" onblur="VerifyFname();" value="<?php echo $FirstName['First_name']; ?>"><br>
-                        <span><p style="color: red;"><?php if(isset($errors['Error_FirstName'])) echo $errors['Error_FirstName'];?></p></span>
+                        <input type="text" placeholder="First Name" name="First_name" id="First_name" onblur="VerifyFname();"><br>
+                        <span style="color: red;"><?php if(isset($errors['Error_FirstName'])) echo $errors['Error_FirstName'];?></span>
                     </div>
 
                     <div class="field">
                         <label for="">Last Name</label>
-                        <input type="text" placeholder="Last Name" name="Last_name" id="Last_name" onblur="VerifyLname();" value="<?php echo $LastName['Last_name']; ?>"><br>
+                        <input type="text" placeholder="Last Name" name="Last_name" id="Last_name" onblur="VerifyLname();"><br>
                     </div>
 
                     <div class="field">
