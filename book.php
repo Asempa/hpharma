@@ -9,6 +9,39 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
 <link rel="stylesheet" href="assets/css/booking.css">
 <title>Book an appointment</title>
+
+<script>
+    function VerifyUser(){
+    var Firstname = document.getElementById("First_name").value;
+    var Lastname = document.getElementById("Last_name").value;
+
+
+
+    if(Firstname===""){
+        
+        document.getElementById("First_Error").style.color="red";
+        document.getElementById("First_Error").innerHTML="<strong>Field Empty. Please Fill<strong>";
+        return true;
+    }
+    else{
+        document.getElementById("First_Error").style.color="green";
+        document.getElementById("First_Error").innerHTML="<strong>Valid<strong>";
+        return false;
+    }
+
+    if(Lastname===""){
+        
+        document.getElementById("Last_Error").style.color="red";
+        document.getElementById("Last_Error").innerHTML="<strong>Field Empty. Please Fill<strong>";
+        return true;
+    }
+    else{
+        document.getElementById("Last_Error").style.color="green";
+        document.getElementById("Last_Error").innerHTML="<strong>Valid<strong>";
+        return false;
+    }
+}
+</script>
 </head>
 <body>
 
@@ -63,13 +96,19 @@
         <form action="">
             <div class="fields">
                 <div class="field">
-                    <label for="">Name</label>
-                    <input type="text" placeholder="Name">
+                    <label for="">First Name</label>
+                    <input type="text" placeholder="First Name" name="First_name" id="First_name" onblur="VerifyUser();"><br>
+                    <span id="First_Error">&nbsp;</span>
+                </div>
+
+                <div class="field">
+                    <label for="">Last Name</label>
+                    <input type="text" placeholder="Last Name" name="Last_name" id="Last_name">
                 </div>
 
                 <div class="field">
                     <label for="">Email</label>
-                    <input type="text" placeholder="Email">
+                    <input type="text" placeholder="Email" name="Email" id="Email">
                 </div>
 
                 <div class="field">
@@ -97,7 +136,7 @@
                 </div>
 
                 <div class="field">
-                    <input type="button" value="Book Appointment">
+                    <input type="button" value="Book Appointment" name="book">
                 </div>
             </div>
         </form>
@@ -203,5 +242,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+
 </body>
 </html>
