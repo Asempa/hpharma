@@ -90,7 +90,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url("/assets/img/backgrounds/doctors-lineup.jpeg");
+    background-image: url("http://localhost/hpharma/assets/img/backgrounds/doctors-lineup.jpeg");
     background-position: 0% 20%;
     background-size: cover;
     background-repeat: no-repeat;
