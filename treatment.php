@@ -20,6 +20,7 @@
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
+        </div>
     </nav>
 
     <!-- jumbotron -->
@@ -29,8 +30,8 @@
         <div class="jumbotron jumbotron-fluid">
             <div class="bg-img"></div>
             <div class="container">
-                <h1 class="display-2 text-center">Doctors</h1>
-                <p class="lead text-center">Healthcare professionals who are focused and ready to make the world a better place.</p>
+                <h1 class="display-2 text-center">Treatments</h1>
+                <p class="lead text-center">On - the - go diagnosis for some ailments and diseases.</p>
             </div>
         </div>
     </div>
@@ -38,72 +39,64 @@
     <!-- doctors -->
     <div class="container">
         <div class="text-center">
-            <p class="display-4">Available Doctors</p>
+            <p class="display-4">Available Treatments</p>
         </div>
 
         <!-- doctor cards -->
         <div class="profile">
             <div class="card">
-                <p>Sebastian Mensah</p>
-                <p>0246789160</p>
-                <p>Gynecologist</p>
-                <p>11:00 - 16:00</p>
+                <p>Sickness: Malaria</p>
+                <p>Symptoms: Nausea & Vomiting</p>
+                <p>Treatment: Chloroquine Phosphate</p>
+
             </div>
 
             <div class="card">
-                <p>Ama Nyamekye Ansah</p>
-                <p>0201114873</p>
-                <p>Surgeon</p>
-                <p>10:00 - 13:00</p>
+                <p>Sickness: Tuberculosis</p>
+                <p>Symptoms: Fever & Weight Loss</p>
+                <p>Treatment: Rifampin</p>
             </div>
 
             <div class="card">
-                <p>Patience Nyarko</p>
-                <p>0550244496</p>
-                <p>Psychiatrist</p>
-                <p>01:00 - 06:00</p>
+                <p>Sickness: Common Cold</p>
+                <p>Symptoms: Sore throat & Sneezing</p>
+                <p>Treatment: Gargling & Menthol sweets</p>
             </div>
 
             <div class="card">
-                <p>Bright Bentil</p>
-                <p>0241234561</p>
-                <p>Cardiologist</p>
-                <p>12:00 - 15:00</p>
+                <p>Sickness: Constipation</p>
+                <p>Symptoms: Lack of energy & Stomach pain</p>
+                <p>Treatment: Laxatives & Hydration</p>
             </div>
 
             <div class="card">
-                <p>Kobina Paintsil</p>
-                <p>0241233210</p>
-                <p>Dermatologist</p>
-                <p>18:00 - 21:00</p>
+                <p>Sickness: Cholera</p>
+                <p>Symptoms: Vomiting & Leg cramps</p>
+                <p>Treatment: Rehydration & Zinc supplements</p>
             </div>
 
             <div class="card">
-                <p>Maame Serwaa Essel</p>
-                <p>0552344321</p>
-                <p>Endocrinologist</p>
-                <p>22:00 - 02:00</p>
+                <p>Sickness: Typhoid</p>
+                <p>Symptoms: Headache & Abdominal pains</p>
+                <p>Treatment: Rehydration & Antibiotics</p>
             </div>
 
             <div class="card">
-                <p>Abena Takyi</p>
-                <p>0241768810</p>
-                <p>Surgeon</p>
-                <p>11:00 - 15:00</p>
+                <p>Sickness: Tetanus</p>
+                <p>Symptoms: Sweating & High blood pressure</p>
+                <p>Treatment: Penicillin & Muscle relaxers</p>
             </div>
 
             <div class="card">
-                <p>Kofi Mensah</p>
-                <p>0501114450</p>
-                <p>Psychiatrist</p>
-                <p>18:00 - 21:00</p>
+                <p>Sickness: Pneumonia</p>
+                <p>Symptoms: Chest pains & Fever</p>
+                <p>Treatment: Rest & Antibiotics</p>
             </div>
 
             <div class="card">
-                <p>Prince Quansah</p>
-                <p>0249998761</p>
-                <p>Cardiologist</p>
-                <p>16:00 - 18:00</p>
+                <p>Sickness: Influenza</p>
+                <p>Symptoms: Cough & Sore throat</p>
+                <p>Treatment: Oseltamivir & Rehydration</p>
             </div>
 
         </div>

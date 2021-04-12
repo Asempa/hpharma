@@ -20,20 +20,6 @@
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Services</a>
-          </li>
-          
-        </ul>
-      </div>
     </nav>
 
     <!-- hero -->
@@ -77,32 +63,26 @@
             <img src="assets/img/icons/icons8-schedule-100.png" alt="" />
             <p class="title">BOOKING</p>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud
+              Schedule an appointment with a doctor.
             </p>
           </a>
 
-          <a href="" class="card text-center">
+          <a href="profile.php" class="card text-center">
             <img src="assets/img/icons/icons8-doctor-male-100.png" alt="" />
             <p class="title">DOCTORS PROFILE</p>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud
+              Find out more about our doctors.
             </p>
           </a>
 
-          <a href="" class="card text-center">
+          <a href="treatment.php" class="card text-center">
             <img
               src="assets/img/icons/icons8-wound-treatment-100.png"
               alt=""
             />
             <p class="title">TREATMENTS</p>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud
+              Treatments on the go tailored for you.
             </p>
           </a>
         </div>
@@ -201,17 +181,6 @@
             </div>
             <!--Grid row-->
           </form>
-        </section>
-        <!-- Section: Form -->
-
-        <!-- Section: Text -->
-        <section class="mb-4">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
-            distinctio earum repellat quaerat voluptatibus placeat nam, commodi
-            optio pariatur est quia magnam eum harum corrupti dicta, aliquam
-            sequi voluptate quas.
-          </p>
         </section>
         <!-- Section: Text -->
       </div>

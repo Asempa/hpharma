@@ -1,3 +1,23 @@
+<<<<<<< HEAD
+
+=======
+<?php
+
+    //Initialization
+    $FirstName['First_name'] = "";
+    $LastName['Last_name'] = "";
+
+
+
+    if (isset($_POST['First_name'])) $UserName['First_name'] = htmlspecialchars($_POST['First_name']);
+    if (isset($_POST['Last_name'])) $UserPhone['Last_name'] = htmlspecialchars($_POST['Last_name']);
+
+
+    
+    if (isset($_POST['First_name'])) $FirstName['First_name'] = htmlspecialchars($_POST['First_name']);
+    if (isset($_POST['Last_name'])) $LastName['Last_name'] = htmlspecialchars($_POST['Last_name']);
+    
+?>
 
 
 
@@ -18,24 +38,10 @@
         <!-- navigation bar -->
         <nav class="navbar navbar-expand-lg navbar-light nav px-3">
             <img src="assets/img/logo/icons8-caduceus-medical-100.png" alt="" width="40">
-            <a class="navbar-brand" href="#">hPharma</a>
+            <a class="navbar-brand" href="index.php">hPharma</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="#">Services</a>
-                </li>
-
-            </ul>
-            </div>
         </nav>
 
         <!-- jumbotron -->
@@ -178,25 +184,13 @@
                     </form>
                 </section>
                 <!-- Section: Form -->
-
-                <!-- Section: Text -->
-                <section class="mb-4">
-                    <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
-                    repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam
-                    eum harum corrupti dicta, aliquam sequi voluptate quas.
-                    </p>
-                </section>
-                <!-- Section: Text -->
-
-
             </div>
             <!-- Grid container -->
 
             <!-- Copyright -->
             <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
             © 2020 Copyright:
-            <a class="text-white" href="https://mdbootstrap.com/">hPharma</a>
+            <a class="text-white" href="#">hPharma</a>
             </div>
             <!-- Copyright -->
         </footer>
