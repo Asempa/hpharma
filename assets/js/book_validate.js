@@ -4,14 +4,12 @@ function VerifyFname(){
 
     if(Firstname==="" || !regex_name(Firstname)){
 
-        document.getElementById("First_Error").style.color="red";
-        document.getElementById("First_Error").innerHTML="<strong>Field Empty. Please Fill<strong>";
+        document.getElementById("First_name").style.borderColor="#e74c3c";
         return true;
     }
 
     else{
-        document.getElementById("First_Error").style.color="green";
-        document.getElementById("First_Error").innerHTML="<strong>Valid<strong>";
+        document.getElementById("First_name").style.borderColor="#2ecc71";
         return false;
     }
 }
@@ -21,14 +19,12 @@ function VerifyLname(){
 
     if(Lastname==="" || !regex_name(Lastname)){
 
-        document.getElementById("Last_Error").style.color="red";
-        document.getElementById("Last_Error").innerHTML="<strong>Field Empty. Please Fill<strong>";
+        document.getElementById("Last_name").style.borderColor="#e74c3c";
         return true;
     }
 
     else{
-        document.getElementById("Last_Error").style.color="green";
-        document.getElementById("Last_Error").innerHTML="<strong>Valid<strong>";
+        document.getElementById("Last_name").style.borderColor="#2ecc71";
         return false;
     }
 }
@@ -43,14 +39,12 @@ function VerifyEmail(){
 
     if(Email==="" || !email_regex(Email)){
 
-        document.getElementById("Email_Error").style.color="red";
-        document.getElementById("Email_Error").innerHTML="<strong>Field Empty. Please Fill<strong>";
+        document.getElementById("Email").style.borderColor="#e74c3c";
         return true;
     }
 
     else{
-        document.getElementById("Email_Error").style.color="green";
-        document.getElementById("Email_Error").innerHTML="<strong>Valid<strong>";
+        document.getElementById("Email").style.borderColor="#2ecc71";
         return false;
     }
 }

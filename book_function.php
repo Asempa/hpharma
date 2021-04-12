@@ -11,7 +11,7 @@ $errors = array();
 if(isset($_POST['save'])){
     // Validate
 
-    $input_FulName = $_POST['fullName'];
+    $input_FirstName = $_POST['fullName'];
     $input_number = $_POST['number'];
     $input_datepick = $_POST['bookingDate'];
     $input_tutor = $_POST['tutor'];
