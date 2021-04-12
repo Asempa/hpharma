@@ -22,10 +22,6 @@ input[type="text"]:focus{
     box-shadow: 2px 2px 3px 2px darkorange, -2px -2px 3px 2px darkorange;
 }
 
-select{
-    width: 100%;
-}
-
 
 input[type="button"]{
     padding: 20px;

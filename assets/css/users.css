@@ -21,22 +21,18 @@
   color: black;
 }
 
-.card img {
+.cards a img {
   display: block;
   margin: auto;
 }
 
-.card:hover {
+.cards a:hover {
   background-color: darkorange;
 }
 
-.greeting {
-  margin-top: 10px;
-  font-size: 1.2rem;
-}
-
 .service-msg {
-  font-size: 1.4rem;
+  margin-top: 10px;
+  font-size: 1.8rem;
 }
 
 .request hr {
@@ -45,29 +41,64 @@
   border-color: brown;
 }
 
+.profile .card {
+  width: 320px;
+  height: 300px;
+  margin: 25px auto;
+}
+
+.profile .card p{
+  margin: 25px;
+}
+
 /* media queries */
 @media screen and (min-width: 768px) {
   .carousel-inner {
     height: 65vh;
   }
 
-  .cards {
+  .cards,
+  .profile {
     display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
   }
 
-  .card {
+  .cards a {
     transition: all 0.3s ease-in;
   }
 
-  .card:hover {
+  .cards a:hover {
     border-radius: 20px;
   }
 
-  .greeting {
-    font-size: 1.5rem;
+  .service-msg {
+    font-size: 3rem;
   }
 
-  .service-msg {
-    font-size: 1.5rem;
+  .jumbotron {
+    background: transparent;
+  }
+
+  .jumbotron p {
+    z-index: 3;
+  }
+
+  .jumbotron .bg-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("/assets/img/backgrounds/doctors-lineup.jpeg");
+    background-position: 0% 20%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(2px) opacity(0.7);
+    z-index: -1;
   }
 }

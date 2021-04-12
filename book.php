@@ -30,15 +30,7 @@
                 <li class="nav-item">
                 <a class="nav-link" href="#">Services</a>
                 </li>
-                <li class="nav-item">
-                <a class="nav-link" href="#">Projects</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="">Settings</a>
-                </li>
-                <li class="nav-item" id="signUp">
-                <a class="nav-link" href="">Logout</a>
-                </li>
+
             </ul>
             </div>
         </nav>
