@@ -14,7 +14,7 @@
 
         <!-- navigation bar -->
         <nav class="navbar navbar-expand-lg navbar-light nav px-3">
-            <img src="/assets/img/logo/icons8-caduceus-medical-100.png" alt="" width="40">
+            <img src="assets/img/logo/icons8-caduceus-medical-100.png" alt="" width="40">
             <a class="navbar-brand" href="#">hPharma</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
