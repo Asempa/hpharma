@@ -27,7 +27,7 @@ if(isset($_POST['save'])){
         $sql = "INSERT INTO booking (firstname) VALUES ('$input_FirstName')";
         $data_inserted = mysqli_query($connection, $sql);
         if($data_inserted){
-            echo "<script>alert('Thank You For Booking with Us🙂'); location.href='index.html';</script> ";
+            echo "<script>alert('Thank You For Booking with Us🙂'); location.href='index.php';</script> ";
         } else{
             echo "<script>alert('Failed to Book a Session'); location.href='book.php';</script>";
 

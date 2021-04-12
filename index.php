@@ -1,3 +1,5 @@
+<?php
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -29,19 +31,11 @@
           <li class="nav-item">
             <a class="nav-link" href="#">Services</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="">Settings</a>
-          </li>
-          <li class="nav-item" id="signUp">
-            <a class="nav-link" href="">Logout</a>
-          </li>
+          
         </ul>
       </div>
     </nav>
-<!--Hello World-->
+
     <!-- hero -->
     <div class="container-fluid px-0 hero">
       <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
@@ -68,10 +62,6 @@
     <!-- body content -->
     <main class="pb-5">
       <div class="container">
-        <!-- greeting -->
-        <div class="d-flex">
-          <p class="greeting">Welcome, Akwasi</p>
-        </div>
 
         <!-- services -->
         <div class="request">
