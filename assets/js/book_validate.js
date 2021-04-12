@@ -2,7 +2,7 @@ function VerifyFname(){
     var Firstname = document.getElementById("First_name").value;
 
     if(Firstname==="" ){
-        
+
         document.getElementById("First_Error").style.color="red";
         document.getElementById("First_Error").innerHTML="<strong>Field Empty. Please Fill<strong>";
         return true;
@@ -19,7 +19,7 @@ function VerifyLname(){
     var Lastname = document.getElementById("Last_name").value;
 
     if(Lastname==="" ){
-        
+
         document.getElementById("Last_Error").style.color="red";
         document.getElementById("Last_Error").innerHTML="<strong>Field Empty. Please Fill<strong>";
         return true;
