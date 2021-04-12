@@ -44,10 +44,9 @@ CREATE TABLE `admin` (
 
 CREATE TABLE `booking` (
   `id` int(11) NOT NULL,
-  `fullname` varchar(70) NOT NULL,
-  `gender` varchar(70) NOT NULL,
-  `phonenumber` varchar(70) NOT NULL,
-  `address` varchar(70) NOT NULL,
+  `firstname` varchar(70) NOT NULL,
+  `lastname` varchar(70) NOT NULL,
+  `email` varchar(70) NOT NULL,
   `appointmentfor` varchar(70) NOT NULL,
   `bookeddate` date NOT NULL,
   `bookedtime` time NOT NULL DEFAULT current_timestamp()
