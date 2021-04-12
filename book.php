@@ -4,10 +4,17 @@
     $FirstName['First_name'] = "";
     $LastName['Last_name'] = "";
 
+<<<<<<< HEAD
 
     if (isset($_POST['First_name'])) $UserName['First_name'] = htmlspecialchars($_POST['First_name']);
     if (isset($_POST['Last_name'])) $UserPhone['Last_name'] = htmlspecialchars($_POST['Last_name']);
 
+=======
+    
+    if (isset($_POST['First_name'])) $FirstName['First_name'] = htmlspecialchars($_POST['First_name']);
+    if (isset($_POST['Last_name'])) $LastName['Last_name'] = htmlspecialchars($_POST['Last_name']);
+    
+>>>>>>> 72734e60ce5d2aedb06384a81073b1b18a66f9f6
 ?>
 
 
@@ -51,7 +58,7 @@
         <div class="container card form-container">
             <p class="display-4 text-center">Schedule now</p>
             <hr>
-            <form action="">
+            <form action="book_function.php" method="POST" target="_self">
                 <div class="fields">
                     <div class="field">
                         <label for="">First Name</label>
@@ -76,20 +83,20 @@
 
                     <div class="field">
                         <label for="">Appointment for</label>
-                        <select name="purpose" id="purpose">
-                            <option value="" disabled="true" selected="selected">Service</option>
+                        <select type="text" name="purpose" id="purpose">
+                            <option value="">Service</option>
                         </select>
                     </div>
 
                     <div class="field">
-                        <label for="">Preferred Time</label>
-                        <select name="" id="">
-                            <option value="" disabled="true" selected="selected">-- Choose time --</option>
-                            <option value="">8:00am - 9:00am</option>
-                            <option value="">9:00am - 10:00am</option>
-                            <option value="">10:00am - 11:00am</option>
-                            <option value="">11:00am - 12:00pm</option>
-                            <option value="">12:00am - 1:00pm</option>
+                        <label>Preferred Time</label>
+                        <select name="bookingTime">
+                            <option>-- Choose time --</option>
+                            <option value="8:00am - 9:00am">8:00am - 9:00am</option>
+                            <option value="9:00am - 10:00am">9:00am - 10:00am</option>
+                            <option value="10:00am - 11:00am">10:00am - 11:00am</option>
+                            <option value="11:00am - 12:00pm">11:00am - 12:00pm</option>
+                            <option value="12:00pm - 1:00pm">12:00pm - 1:00pm</option>
                         </select>
                     </div>
 

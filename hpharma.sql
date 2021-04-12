@@ -1,15 +1,18 @@
 -- phpMyAdmin SQL Dump
--- version 5.0.4
+-- version 5.0.2
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 12, 2021 at 09:33 PM
--- Server version: 10.4.17-MariaDB
--- PHP Version: 8.0.0
+-- Generation Time: Apr 12, 2021 at 10:13 PM
+-- Server version: 10.4.14-MariaDB
+-- PHP Version: 7.4.10
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
 SET time_zone = "+00:00";
+
+CREATE DATABASE IF NOT EXISTS `hpharma` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+USE `hpharma`;
 
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -20,8 +23,6 @@ SET time_zone = "+00:00";
 --
 -- Database: `hpharma`
 --
-CREATE DATABASE IF NOT EXISTS `hpharma` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
-USE `hpharma`;
 
 -- --------------------------------------------------------
 
@@ -44,10 +45,9 @@ CREATE TABLE `admin` (
 
 CREATE TABLE `booking` (
   `id` int(11) NOT NULL,
-  `fullname` varchar(70) NOT NULL,
-  `gender` varchar(70) NOT NULL,
-  `phonenumber` varchar(70) NOT NULL,
-  `address` varchar(70) NOT NULL,
+  `firstname` varchar(70) NOT NULL,
+  `lastname` varchar(70) NOT NULL,
+  `email` varchar(70) NOT NULL,
   `appointmentfor` varchar(70) NOT NULL,
   `bookeddate` date NOT NULL,
   `bookedtime` time NOT NULL DEFAULT current_timestamp()
