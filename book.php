@@ -88,7 +88,7 @@
 
                     <div class="field">
                         <label for="">Appointment for</label>
-                        <select name="" id="">
+                        <select name="purpose" id="purpose">
                             <option value="" disabled="true" selected="selected">Service</option>
                         </select>
                     </div>

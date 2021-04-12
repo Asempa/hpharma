@@ -11,16 +11,17 @@ $errors = array();
 if(isset($_POST['save'])){
     // Validate
 
-    $input_FirstName = $_POST['fullName'];
-    $input_number = $_POST['number'];
-    $input_datepick = $_POST['bookingDate'];
-    $input_tutor = $_POST['tutor'];
+    $input_FirstName = $_POST['First_name'];
+    $input_Lastname = $_POST['Last_name'];
+    $input_Email = $_POST['Email'];
+    $input_datepick = $_POST['date_picked'];
+    $input_purpose = $_POST['purpose'];
     $input_time = $_POST['bookingTime'];
 
-    $session_date_query = "SELECT * FROM bookings WHERE bookdate='$input_datepick'";
+    $session_datepick = "SELECT * FROM bookings WHERE bookdate='$input_datepick'";
     $date_result = mysqli_query($connection,$session_date_query);
 
-    $session_time_query = "SELECT * FROM bookings WHERE booktime='$input_time'";
+    $session_time = "SELECT * FROM bookings WHERE booktime='$input_time'";
     $time_result = mysqli_query($connection,$session_time_query);
 
 
