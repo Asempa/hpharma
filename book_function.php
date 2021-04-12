@@ -50,7 +50,10 @@ if(isset($_POST['save'])){
             echo "<script>alert('Failed to Book a Session'); location.href='book.php';</script>";
 
         }
-    }
+    } else{
+            echo "<script>alert('Data'); location.href='book.php';</script>";
+
+        }
 
 
 }
