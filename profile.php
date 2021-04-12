@@ -54,72 +54,72 @@
         <div class="text-center">
             <p class="display-4">Available Doctors</p>
         </div>
-    
+
         <!-- doctor cards -->
         <div class="profile">
             <div class="card">
-                <p></p>
-                <p></p>
-                <p></p>
-                <p></p>
+                <p>Sebastian Mensah</p>
+                <p>0246789160</p>
+                <p>Gynecologist</p>
+                <p>11:00 - 16:00</p>
             </div>
-    
+
             <div class="card">
-                <p></p>
-                <p></p>
-                <p></p>
-                <p></p>
+                <p>Ama Nyamekye Ansah</p>
+                <p>0201114873</p>
+                <p>Surgeon</p>
+                <p>10:00 - 13:00</p>
             </div>
-    
+
             <div class="card">
-                <p></p>
-                <p></p>
-                <p></p>
-                <p></p>
+                <p>Patience Nyarko</p>
+                <p>0550244496</p>
+                <p>Psychiatrist</p>
+                <p>01:00 - 06:00</p>
             </div>
-            
+
             <div class="card">
-                <p></p>
-                <p></p>
-                <p></p>
-                <p></p>
+                <p>Bright Bentil</p>
+                <p>0241234561</p>
+                <p>Cardiologist</p>
+                <p>12:00 - 15:00</p>
             </div>
-            
+
             <div class="card">
-                <p></p>
-                <p></p>
-                <p></p>
-                <p></p>
+                <p>Kobina Paintsil</p>
+                <p>0241233210</p>
+                <p>Dermatologist</p>
+                <p>18:00 - 21:00</p>
             </div>
-    
+
             <div class="card">
-                <p></p>
-                <p></p>
-                <p></p>
-                <p></p>
+                <p>Maame Serwaa Essel</p>
+                <p>0552344321</p>
+                <p>Endocrinologist</p>
+                <p>22:00 - 02:00</p>
             </div>
-    
+
             <div class="card">
-                <p></p>
-                <p></p>
-                <p></p>
-                <p></p>
+                <p>Abena Takyi</p>
+                <p>0241768810</p>
+                <p>Surgeon</p>
+                <p>11:00 - 15:00</p>
             </div>
-            
+
             <div class="card">
-                <p></p>
-                <p></p>
-                <p></p>
-                <p></p>
+                <p>Kofi Mensah</p>
+                <p>0501114450</p>
+                <p>Psychiatrist</p>
+                <p>18:00 - 21:00</p>
             </div>
-    
+
             <div class="card">
-                <p></p>
-                <p></p>
-                <p></p>
-                <p></p>
+                <p>Prince Quansah</p>
+                <p>0249998761</p>
+                <p>Cardiologist</p>
+                <p>16:00 - 18:00</p>
             </div>
-    
+
         </div>
     </div>
 
@@ -217,17 +217,6 @@
           </form>
         </section>
         <!-- Section: Form -->
-
-        <!-- Section: Text -->
-        <section class="mb-4">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
-            distinctio earum repellat quaerat voluptatibus placeat nam, commodi
-            optio pariatur est quia magnam eum harum corrupti dicta, aliquam
-            sequi voluptate quas.
-          </p>
-        </section>
-        <!-- Section: Text -->
       </div>
       <!-- Grid container -->
 
