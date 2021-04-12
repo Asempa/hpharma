@@ -9,7 +9,8 @@ $connection=mysqli_connect($servername,$username,$dbpassword,$dbname);
 $errors = array();
 
 if(isset($_POST['save'])){
-    //POST variables
+    // Validate
+
     $input_FirstName = $_POST['First_name'];
     $input_LastName = $_POST['Last_name'];
     $input_Email = $_POST['Email'];
@@ -17,15 +18,12 @@ if(isset($_POST['save'])){
     $input_purpose = $_POST['purpose'];
     $input_time = $_POST['bookingTime'];
 
-    //Sql query to select booking records based on date
     $session_datepick = "SELECT * FROM booking WHERE bookeddate='$input_datepick'";
     $date_result = mysqli_query($connection,$session_datepick);
 
-    //Sql query to select booking records based on time
     $session_time_query = "SELECT * FROM booking WHERE bookedtime='$input_time'";
     $time_result = mysqli_query($connection,$session_time_query);
 
-    //error checking
     if(empty($input_FirstName)){
         $errors['Error_FirstName'] = "Invalid Input";
     }
@@ -42,7 +40,7 @@ if(isset($_POST['save'])){
         $errors['Error_time'] = "Time has already been booked";
     }
 
-    //query to insert data into database if there are no errors
+
     if(count($errors)==0){
         $sql = "INSERT INTO booking (firstname, lastname, email, appointmentfor, bookeddate, bookedtime) VALUES ('$input_FirstName', '$input_LastName', '$input_Email', '$input_purpose', '$input_datepick', '$input_time')";
         $data_inserted = mysqli_query($connection, $sql);
@@ -72,3 +70,5 @@ if(isset($_POST['save'])){
 
 
 mysqli_close($connection);
+
+?>
