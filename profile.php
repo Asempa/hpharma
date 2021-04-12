@@ -54,7 +54,7 @@
       </div>
 
       <div class="card">
-      <img src="assets/img/doctors/humberto-chavez-FVh_yqLR9eA-unsplash.jpg" alt="">
+        <img src="assets/img/doctors/humberto-chavez-FVh_yqLR9eA-unsplash.jpg" alt="">
         <p>Name: Ama Nyamekye Ansah</p>
         <p>Phone Number: 0201114873</p>
         <p>Specialty: Surgeon</p>
@@ -62,7 +62,7 @@
       </div>
 
       <div class="card">
-      <img src="assets/img/doctors/andreas-weiss-TgFto_COlU8-unsplash.jpg" alt="">
+        <img src="assets/img/doctors/andreas-weiss-TgFto_COlU8-unsplash.jpg" alt="">
         <p>Name: Patience Nyarko</p>
         <p>Phone Number: 0550244496</p>
         <p>Specialty: Psychiatrist</p>
@@ -70,7 +70,7 @@
       </div>
 
       <div class="card">
-      <img src="assets/img/doctors/streegar-bORAYzcoJ8A-unsplash.jpg" alt="">
+        <img src="assets/img/doctors/streegar-bORAYzcoJ8A-unsplash.jpg" alt="">
         <p>Name: Bright Bentil</p>
         <p>Phone Number: 0241234561</p>
         <p>Specialty: Cardiologist</p>
@@ -78,7 +78,7 @@
       </div>
 
       <div class="card">
-      <img src="assets/img/doctors/usman-yousaf-pTrhfmj2jDA-unsplash.jpg" alt="">
+        <img src="assets/img/doctors/usman-yousaf-pTrhfmj2jDA-unsplash.jpg" alt="">
         <p>Name: Kobina Paintsil</p>
         <p>Phone Number: 0241233210</p>
         <p>Specialty: Dermatologist</p>
@@ -86,7 +86,7 @@
       </div>
 
       <div class="card">
-      <img src="assets/img/doctors/engin-akyurt-YmM4EkZ1_v8-unsplash.jpg" alt="">
+        <img src="assets/img/doctors/engin-akyurt-YmM4EkZ1_v8-unsplash.jpg" alt="">
         <p>Name: Maame Serwaa Essel</p>
         <p>Phone Number: 0552344321</p>
         <p>Specialty: Endocrinologist</p>
@@ -94,7 +94,7 @@
       </div>
 
       <div class="card">
-      <img src="assets/img/doctors/mustafa-omar-WQUWCcDO8uI-unsplash.jpg" alt="">
+        <img src="assets/img/doctors/mustafa-omar-WQUWCcDO8uI-unsplash.jpg" alt="">
         <p>Name: Abena Takyi</p>
         <p>Phone Number: 0241768810</p>
         <p>Specialty: Surgeon</p>
@@ -102,7 +102,7 @@
       </div>
 
       <div class="card">
-      <img src="assets/img/doctors/isaac-iverson-hB_gwZCEIfs-unsplash.jpg" alt="">
+        <img src="assets/img/doctors/isaac-iverson-hB_gwZCEIfs-unsplash.jpg" alt="">
         <p>Name: Kofi Mensah</p>
         <p>Phone Number: 0501114450</p>
         <p>Specialty: Psychiatrist</p>
@@ -110,7 +110,7 @@
       </div>
 
       <div class="card">
-      <img src="assets/img/doctors/dr-josiah-sarpong-6En5Z5ZhNj8-unsplash.jpg" alt="">
+        <img src="assets/img/doctors/dr-josiah-sarpong-6En5Z5ZhNj8-unsplash.jpg" alt="">
         <p>Name: Prince Quansah</p>
         <p>Phone Number: 0249998761</p>
         <p>Specialty: Cardiologist</p>
