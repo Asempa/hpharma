@@ -53,7 +53,7 @@ if (isset($_POST['Last_name'])) $UserPhone['Last_name'] = htmlspecialchars($_POS
     <div class="container card form-container">
         <p class="display-4 text-center">Schedule now</p>
         <hr>
-        <form action="book_function.php" method="POST" target="_self">
+        <form action="index.php" method="POST" target="_self">
             <div class="fields">
                 <div class="field">
                     <label for="">First Name</label>
